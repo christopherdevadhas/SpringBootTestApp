@@ -20,7 +20,7 @@ import com.letsstartcoding.springbootrestapiexample.dao.EmployeeDAO;
 import com.letsstartcoding.springbootrestapiexample.model.Employee;
 
 @RestController
-@RequestMapping(value="/company", produces="application.json")
+@RequestMapping(value="/company", produces="application/json")
 @CrossOrigin("*")
 public class EmployeeController {
 	

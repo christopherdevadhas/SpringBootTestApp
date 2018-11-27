@@ -20,7 +20,7 @@ import com.letsstartcoding.springbootrestapiexample.dao.UserDAO;
 import com.letsstartcoding.springbootrestapiexample.model.Users;
 
 @RestController
-@RequestMapping(value="/userdetails", produces="application.json")
+@RequestMapping(value="/userdetails", produces="application/json")
 @CrossOrigin("*")
 public class UserController {
 	

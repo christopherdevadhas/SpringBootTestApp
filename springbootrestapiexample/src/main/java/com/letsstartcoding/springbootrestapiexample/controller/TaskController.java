@@ -20,7 +20,7 @@ import com.letsstartcoding.springbootrestapiexample.dao.TaskDAO;
 import com.letsstartcoding.springbootrestapiexample.model.Task;
 
 @RestController
-@RequestMapping(value="/taskdetails", produces="application.json")
+@RequestMapping(value="/taskdetails", produces="application/json")
 @CrossOrigin("*")
 public class TaskController {
 	

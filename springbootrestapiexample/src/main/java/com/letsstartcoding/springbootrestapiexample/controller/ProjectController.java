@@ -20,7 +20,7 @@ import com.letsstartcoding.springbootrestapiexample.dao.ProjectDAO;
 import com.letsstartcoding.springbootrestapiexample.model.Project;
 
 @RestController
-@RequestMapping(value="/projectdetails", produces="application.json")
+@RequestMapping(value="/projectdetails", produces="application/json")
 @CrossOrigin("*")
 public class ProjectController {
 	
