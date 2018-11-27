@@ -1,0 +1,22 @@
+<div class="container">
+  <!-- <h2>Project Manager</h2>
+  <button type="button" class="btn btn-primary">Add Project</button>
+  <button type="button" class="btn btn-primary">Add Task</button>
+  <button type="button" class="btn btn-primary">Add User</button>
+  <button type="button" class="btn btn-primary">View Task</button>
+  -->
+     <li class="list-group-item">
+	 <input type="text" class="form-control" [(ngModel)]="inputtext" (click)="clickAction"/>
+	 </li>
+<button type="button" class="btn btn-primary" (click)="addMore()">Add Task</button> 
+<li class="list-group-item">
+	 {{inputtext}}
+	 
+</li>	
+
+<li class="list-group-item">
+	 {{sample}}
+	 
+</li>
+<li class="list-group-item" *ngFor="let smpl of smpls">{{smpl}}</li>
+</div>
