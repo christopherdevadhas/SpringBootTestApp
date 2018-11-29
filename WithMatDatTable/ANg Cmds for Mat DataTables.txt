@@ -1,0 +1,3 @@
+npm -install --save @angular/animations
+npm -install --save @angular/module
+npm -install --save @angular/cdk
